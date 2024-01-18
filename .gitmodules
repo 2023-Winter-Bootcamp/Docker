@@ -1,0 +1,6 @@
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/2023-Winter-Bootcamp/Backend.git
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/2023-Winter-Bootcamp/Frontend.git
