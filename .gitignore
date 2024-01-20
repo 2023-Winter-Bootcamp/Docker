@@ -1,0 +1,14 @@
+.env
+.idea/
+*.log
+
+.vscode/
+.env.prod
+.env.prod.db
+.env.dev
+
+.DS_Store
+
+monitor/prometheus/volume/*
+monitor/grafana/volume/*
+monitor/grafana/*.db
