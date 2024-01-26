@@ -17,4 +17,4 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        ssh -i /tmp/private_key.pem -o StrictHostKeyChecking=no ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} "sudo ~/deploy-script.sh"
+        ssh -i /tmp/private_key.pem -o StrictHostKeyChecking=no ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} "~/deploy-script.sh"
